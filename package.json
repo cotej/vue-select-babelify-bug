@@ -1,0 +1,17 @@
+{
+  "name": "vue-select-babelify-bug",
+  "version": "1.0.0",
+  "description": "reproduces a bug encounted with vue-select for analysis",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/browserify -t vueify -e src/main.js -o dist/app.js -v"
+  },
+  "author": "Jason Coté",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "vue": "^2.4.4",
+    "vue-select": "^2.3.0",
+    "vueify": "^9.4.1"
+  }
+}
